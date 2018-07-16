@@ -1,1 +1,17 @@
 /* add CSS class and element and selectors here */
+@import url('https://fonts.googleapis.com/css?family=Gaegu');
+
+body {
+      background-color: lightblue;
+      font-size: 150%;
+    }
+  .myClass {
+      font-size: 300%;
+      background-color: lightgreen;
+      font-family: gaegu;
+      border: 1px dotted red;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      transition: rotate(-30)deg;
+    }
+  
